@@ -23,7 +23,8 @@ export class Homework1 extends Component {
     const val = this.state.s1 + 50;
     this.setState({s1: val})
     console.log('btn1: s2',this.s2);
-    console.log('btn1: s1',this.state.s1); // old value -> old render
+    console.log('btn1: s1',this.state.s1); 
+    // s1 -> in state new value, but on screen old value -> old render
   }
 
   // test (Task 6)
