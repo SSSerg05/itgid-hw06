@@ -5,7 +5,7 @@ export class Homework1 extends Component {
     super();
     this.s2 = 201;
 
-    console.log(props);
+    console.log('Props:', props);
     
     this.state = {
       s1: props.p1,
